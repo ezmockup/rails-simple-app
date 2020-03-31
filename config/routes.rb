@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  get 'example/test'
-  root 'welcome#index'
+  get "example/test"
 end
