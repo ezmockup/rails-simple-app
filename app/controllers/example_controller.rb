@@ -7,5 +7,7 @@ class ExampleController < ApplicationController
 
   def updateOrderBillease
     p params
+    p params[:trx_id]
+    p "xxxxxxxxxxxxxxxxxxxxxxxxx"
   end
 end
